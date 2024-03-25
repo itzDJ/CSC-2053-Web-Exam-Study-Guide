@@ -177,6 +177,8 @@
 - Give a code example of a nested function in JavaScript. 
 
 - Consider these two functions. 
+
+  ```JavaScript
     function callback() { 
       console.log(“This is a callback function”); 
     } 
@@ -184,6 +186,7 @@
         aFunction(); 
     } 
     Write the line of code that will execute the function first, and use the function callback as the parameter sent to first. 
+  '''
 
 - Write the following function as the simplest possible arrow function: 
     (function (a) { 
