@@ -179,6 +179,22 @@
   ```
 
 - Give a code example of a nested function in JavaScript. 
+  ```
+  function outerFunction() {
+    console.log("Outer function executing.");
+
+    // Nested function
+    function innerFunction() {
+        console.log("Inner function executing.");
+    }
+
+    // Call the nested function
+    innerFunction();
+  }
+
+  // Call the outer function
+  outerFunction();
+  '''
 
 - Consider these two functions. 
 
