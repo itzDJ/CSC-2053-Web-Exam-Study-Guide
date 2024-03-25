@@ -174,7 +174,9 @@
   } 
   ```
 
-- const vals = [1,two,3,4,5] 
+  ```JavaScript
+  const vals = [1,two,3,4,5] 
+  ```
 
 - Give a code example of a nested function in JavaScript. 
 
