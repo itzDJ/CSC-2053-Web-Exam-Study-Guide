@@ -259,4 +259,8 @@
   helloNode = //your code goes here 
   ```
 
+  ```JavaScript
+  const helloNode = document.getElementById("header");
+  ```
+
 
