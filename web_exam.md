@@ -160,3 +160,43 @@
 
 - What does it mean that JavaScript is a client side scripting language?
   - JavaScript is executed on the client's computer, not the server
+
+- What are the advantages of client side scripting?
+  - Proessing can be off-loaded from the server to client machines, thereby reducing the load on the server.
+  - The browser can respond more rapidly to user events.
+  - JS can interact with the downloaded HTML in a way that the server cannot, creating a user experience similar to that of a desktop software.
+
+- In one line of code, using array destructuring, to store the first three elements of the following array in the variables: one, two, three. 
+  - 
+
+- function two() { 
+    x=2; 
+  } 
+
+- const vals = [1,two,3,4,5] 
+
+- Give a code example of a nested function in JavaScript. 
+
+- Consider these two functions. 
+    function callback() { 
+      console.log(“This is a callback function”); 
+    } 
+    function first(aFunction) { 
+        aFunction(); 
+    } 
+    Write the line of code that will execute the function first, and use the function callback as the parameter sent to first. 
+
+- Write the following function as the simplest possible arrow function: 
+    (function (a) { 
+        return a + 100; 
+    }); 
+
+- Given the following JavaScript object: 
+    const country = { 
+        name: “Canada”, 
+        languages: [“English”, “French”], 
+        capital: {name: “Ottawa”, 
+        “location”: “Ontario” 
+    } 
+    Use object destructuring to store each property in its own variable. 
+    Use dot notation to get the value of the name property.
