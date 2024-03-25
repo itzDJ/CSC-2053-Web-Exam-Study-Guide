@@ -268,19 +268,48 @@
 ## React
 
 - Is React a front-end or back-end framework? 
+  - Front-end
 
 - What advantage does the virtual DOM have over the DOM? 
+  - Only changed elements are updates rather than the entire page.
 
 - Create a custom, user-defined React element called dog that returns an <h1> with the dog’s name and a <p> with the text woof. The component should have a property called name. 
+  ```JavaScript
+  import React from 'react';
+
+  // Define the Dog component
+  const Dog = ({ name }) => {
+    return (
+      <div>
+        <h1>{name}</h1>
+        <p>Woof</p>
+      </div>
+    );
+  };
+
+  export default Dog;
+  ```
 
 - What role does Node.js play in React. 
+  - Node.js is a back-end JavaScript server that provides 3 main roles in React:
+    - Minification: the process of removing spaces, line breaks, comments, and other code that's not required for the program to run.
+    - Transpiling: the process of converting code from one versionof the language to another.  This is necessary on the web since not all web browsers support the latest version of Javascript.
+    - Package management: uses npm to update, install, and keep track of packages used in React development.
 
 - What is Node.js? 
+  - See above
 
 - What is the create-react-app toolchain? 
+  - It is a toolchain for React development and configures a biolerplate React application that you can use as a starting point for a React application.
 
 - What type of variable should be used if content on HTML page will change based on a user-event. 
+  - State variable
 
 - Declare a state variable called “likes” that will change when a user clicks a button. 
-
+  ```JavaScript
+  const [likes, setlikes] = useState(0);
+  ```
   - Show how to use the function you declared to change the likes variable.
+  ```JavaScript
+  setLikes(likes+1);
+  ```
