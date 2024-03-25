@@ -167,7 +167,6 @@
   - JS can interact with the downloaded HTML in a way that the server cannot, creating a user experience similar to that of a desktop software.
 
 - In one line of code, using array destructuring, to store the first three elements of the following array in the variables: one, two, three. 
-  - 
 
 - function two() { 
     x=2; 
