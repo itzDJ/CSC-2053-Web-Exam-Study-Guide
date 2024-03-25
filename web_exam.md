@@ -194,7 +194,7 @@
 
   // Call the outer function
   outerFunction();
-  '''
+  ```
 
 - Consider these two functions. 
 
@@ -211,18 +211,18 @@
 
   ```JavaScript
   first(callback);
-  '''
+  ```
 
 - Write the following function as the simplest possible arrow function: 
   ```JavaScript
     (function (a) { 
         return a + 100; 
     }); 
-  '''
+  ```
 
   ```JavaScript
   const arrowFunction = a => a + 100;
-  '''
+  ```
 
 - Given the following JavaScript object: 
   ```JavaScript
