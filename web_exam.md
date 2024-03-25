@@ -273,7 +273,7 @@
 - What advantage does the virtual DOM have over the DOM? 
   - Only changed elements are updates rather than the entire page.
 
-- Create a custom, user-defined React element called dog that returns an <h1> with the dog’s name and a <p> with the text woof. The component should have a property called name. 
+- Create a custom, user-defined React element called dog that returns an h1 with the dog’s name and a p with the text woof. The component should have a property called name. 
   ```JavaScript
   import React from 'react';
 
