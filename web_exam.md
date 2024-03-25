@@ -168,9 +168,11 @@
 
 - In one line of code, using array destructuring, to store the first three elements of the following array in the variables: one, two, three. 
 
-- function two() { 
+  ```JavaScript
+  function two() { 
     x=2; 
   } 
+  ```
 
 - const vals = [1,two,3,4,5] 
 
@@ -181,24 +183,29 @@
   ```JavaScript
     function callback() { 
       console.log(“This is a callback function”); 
-    } 
+    }
+
     function first(aFunction) { 
         aFunction(); 
     } 
-    Write the line of code that will execute the function first, and use the function callback as the parameter sent to first. 
-  '''
+  ```
+  - Write the line of code that will execute the function first, and use the function callback as the parameter sent to first. 
 
 - Write the following function as the simplest possible arrow function: 
+  ```JavaScript
     (function (a) { 
         return a + 100; 
     }); 
+  '''
 
 - Given the following JavaScript object: 
-    const country = { 
-        name: “Canada”, 
-        languages: [“English”, “French”], 
-        capital: {name: “Ottawa”, 
-        “location”: “Ontario” 
-    } 
-    Use object destructuring to store each property in its own variable. 
-    Use dot notation to get the value of the name property.
+  ```JavaScript
+  const country = { 
+    name: “Canada”, 
+    languages: [“English”, “French”], 
+    capital: {name: “Ottawa”, 
+    “location”: “Ontario” 
+  } 
+  ```
+    - Use object destructuring to store each property in its own variable. 
+    - Use dot notation to get the value of the name property.
