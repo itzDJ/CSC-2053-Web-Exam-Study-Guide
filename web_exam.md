@@ -209,11 +209,19 @@
   ```
   - Write the line of code that will execute the function first, and use the function callback as the parameter sent to first. 
 
+  ```JavaScript
+  first(callback);
+  '''
+
 - Write the following function as the simplest possible arrow function: 
   ```JavaScript
     (function (a) { 
         return a + 100; 
     }); 
+  '''
+
+  ```JavaScript
+  const arrowFunction = a => a + 100;
   '''
 
 - Given the following JavaScript object: 
@@ -226,4 +234,11 @@
   } 
   ```
     - Use object destructuring to store each property in its own variable. 
+    ```JavaScript
+    const { name, languages, capital } = country;
+    ```
+
     - Use dot notation to get the value of the name property.
+    ```JavaScript
+    const countryName = country.name;
+    ```
