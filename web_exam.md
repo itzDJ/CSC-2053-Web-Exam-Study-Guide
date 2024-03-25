@@ -265,4 +265,22 @@
   const helloNode = document.getElementById("header");
   ```
 
+## React
 
+- Is React a front-end or back-end framework? 
+
+- What advantage does the virtual DOM have over the DOM? 
+
+- Create a custom, user-defined React element called dog that returns an <h1> with the dog’s name and a <p> with the text woof. The component should have a property called name. 
+
+- What role does Node.js play in React. 
+
+- What is Node.js? 
+
+- What is the create-react-app toolchain? 
+
+- What type of variable should be used if content on HTML page will change based on a user-event. 
+
+- Declare a state variable called “likes” that will change when a user clicks a button. 
+
+  - Show how to use the function you declared to change the likes variable.
