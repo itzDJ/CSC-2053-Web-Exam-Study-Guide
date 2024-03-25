@@ -246,3 +246,16 @@
     ```JavaScript
     const countryName = country.name;
     ```
+
+## DOM
+
+- What is stored in the DOM? 
+
+- What JavaScript object stores the DOM? 
+
+- Use a selector method on the document object to retrieve the HTML element from the following code and store it in a variable called helloNode.
+  ```HTML
+  <h1 id=”header”>Hello World!</h1> 
+  helloNode = //your code goes here 
+  ```
+
