@@ -250,8 +250,10 @@
 ## DOM
 
 - What is stored in the DOM? 
+  - HTML elements called nodes.
 
-- What JavaScript object stores the DOM? 
+- What JavaScript object stores the DOM?
+  - The DOM document object is the root JS object representing the entire HTML document.
 
 - Use a selector method on the document object to retrieve the HTML element from the following code and store it in a variable called helloNode.
   ```HTML
