@@ -160,3 +160,156 @@
 
 - What does it mean that JavaScript is a client side scripting language?
   - JavaScript is executed on the client's computer, not the server
+
+- What are the advantages of client side scripting?
+  - Proessing can be off-loaded from the server to client machines, thereby reducing the load on the server.
+  - The browser can respond more rapidly to user events.
+  - JS can interact with the downloaded HTML in a way that the server cannot, creating a user experience similar to that of a desktop software.
+
+- In one line of code, using array destructuring, to store the first three elements of the following array in the variables: one, two, three. 
+  ```JavaScript
+  const [one, two, three] = ["apple", "banana", "cherry", "date"];
+  ```
+
+
+  ```JavaScript
+  function two() { 
+    x=2; 
+  } 
+  ```
+
+  ```JavaScript
+  const vals = [1,two,3,4,5] 
+  ```
+
+- Give a code example of a nested function in JavaScript. 
+  ```
+  function outerFunction() {
+    console.log("Outer function executing.");
+
+    // Nested function
+    function innerFunction() {
+        console.log("Inner function executing.");
+    }
+
+    // Call the nested function
+    innerFunction();
+  }
+
+  // Call the outer function
+  outerFunction();
+  ```
+
+- Consider these two functions. 
+
+  ```JavaScript
+    function callback() { 
+      console.log(“This is a callback function”); 
+    }
+
+    function first(aFunction) { 
+        aFunction(); 
+    } 
+  ```
+  - Write the line of code that will execute the function first, and use the function callback as the parameter sent to first. 
+
+  ```JavaScript
+  first(callback);
+  ```
+
+- Write the following function as the simplest possible arrow function: 
+  ```JavaScript
+    (function (a) { 
+        return a + 100; 
+    }); 
+  ```
+
+  ```JavaScript
+  const arrowFunction = a => a + 100;
+  ```
+
+- Given the following JavaScript object: 
+  ```JavaScript
+  const country = { 
+    name: “Canada”, 
+    languages: [“English”, “French”], 
+    capital: {name: “Ottawa”, 
+    “location”: “Ontario” 
+  } 
+  ```
+    - Use object destructuring to store each property in its own variable. 
+    ```JavaScript
+    const { name, languages, capital } = country;
+    ```
+
+    - Use dot notation to get the value of the name property.
+    ```JavaScript
+    const countryName = country.name;
+    ```
+
+## DOM
+
+- What is stored in the DOM? 
+  - HTML elements called nodes.
+
+- What JavaScript object stores the DOM?
+  - The DOM document object is the root JS object representing the entire HTML document.
+
+- Use a selector method on the document object to retrieve the HTML element from the following code and store it in a variable called helloNode.
+  ```HTML
+  <h1 id=”header”>Hello World!</h1> 
+  helloNode = //your code goes here 
+  ```
+
+  ```JavaScript
+  const helloNode = document.getElementById("header");
+  ```
+
+## React
+
+- Is React a front-end or back-end framework? 
+  - Front-end
+
+- What advantage does the virtual DOM have over the DOM? 
+  - Only changed elements are updates rather than the entire page.
+
+- Create a custom, user-defined React element called dog that returns an h1 with the dog’s name and a p with the text woof. The component should have a property called name. 
+  ```JavaScript
+  import React from 'react';
+
+  // Define the Dog component
+  const Dog = ({ name }) => {
+    return (
+      <div>
+        <h1>{name}</h1>
+        <p>Woof</p>
+      </div>
+    );
+  };
+
+  export default Dog;
+  ```
+
+- What role does Node.js play in React. 
+  - Node.js is a back-end JavaScript server that provides 3 main roles in React:
+    - Minification: the process of removing spaces, line breaks, comments, and other code that's not required for the program to run.
+    - Transpiling: the process of converting code from one versionof the language to another.  This is necessary on the web since not all web browsers support the latest version of Javascript.
+    - Package management: uses npm to update, install, and keep track of packages used in React development.
+
+- What is Node.js? 
+  - See above
+
+- What is the create-react-app toolchain? 
+  - It is a toolchain for React development and configures a biolerplate React application that you can use as a starting point for a React application.
+
+- What type of variable should be used if content on HTML page will change based on a user-event. 
+  - State variable
+
+- Declare a state variable called “likes” that will change when a user clicks a button. 
+  ```JavaScript
+  const [likes, setlikes] = useState(0);
+  ```
+  - Show how to use the function you declared to change the likes variable.
+  ```JavaScript
+  setLikes(likes+1);
+  ```
